@@ -8,7 +8,7 @@ TOKEN = "TOKEN"
 
 intents = discord.Intents.all()
 intents.members = True  # Subscribe to the privileged members intent.
-bot_var = commands.Bot(command_prefix='$',case_insensitive=True, intents=intents, help_command=None)
+bot_var = commands.Bot(command_prefix='-',case_insensitive=True, intents=intents, help_command=None)
 slash_var = SlashCommand(bot_var, sync_commands=True, sync_on_cog_reload = True)
 
 cogs = ['ouijaCog.py', 'Buttons.py']
