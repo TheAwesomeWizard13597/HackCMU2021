@@ -14,7 +14,7 @@ class Ouija(commands.Cog):
         self.ouijaRecord = {}
         self.ouijaQuestion = ""
 
-        with open(r'C:\Users\TheAw\Documents\League of Legends\HackCMU2021\dictionary.txt') as f:
+        with open(r'dictionary.txt') as f:
             self.linesRaw = f.readlines()
             self.lines = []
             for line in self.linesRaw:
