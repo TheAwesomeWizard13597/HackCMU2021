@@ -61,3 +61,6 @@ class Ouija(commands.Cog):
         channel = ctx.channel
         for key in self.ouijaRecord:
             await channel.send(f'Question: {key}, Answer: {self.ouijaRecord[key]}')
+       
+def setup(bot):
+    bot.add_cog(Ouija(bot))
