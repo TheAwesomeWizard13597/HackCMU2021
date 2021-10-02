@@ -11,7 +11,7 @@ intents.members = True  # Subscribe to the privileged members intent.
 bot_var = commands.Bot(command_prefix='$',case_insensitive=True, intents=intents, help_command=None)
 slash_var = SlashCommand(bot_var, sync_commands=True, sync_on_cog_reload = True)
 
-cogs = []
+cogs = ['ouijaCog.py']
 
 for cog in cogs:
     print(cog)
