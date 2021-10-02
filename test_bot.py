@@ -4,7 +4,7 @@ import discord
 from discord_slash import SlashCommand # Importing the newly installed library.
 from discord.ext import commands
 
-TOKEN = "ODkzNjc1MTk5MTkzNTY3MjUy.YVe54w._czA0yA1yrfFBWP0TrqUMsCfLAU"
+TOKEN = "TOKEN"
 
 intents = discord.Intents.all()
 intents.members = True  # Subscribe to the privileged members intent.
